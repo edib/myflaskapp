@@ -15,7 +15,7 @@ pip3 install WTForms
 pip3 install passlib
 git clone https://github.com/edib/myflaskapp.git
 ```
-### createing the database
+### Creating the database
 ```sql
 create database myflaskapp
 use myflaskapp
