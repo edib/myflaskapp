@@ -2,16 +2,29 @@
 
 Simple application with authentication and CRUD functionality using the Python Flask micro-framework
 
-## Installation
+## Installation 
+### Centos 7 with python 3.4
 
-To use this template, your computer needs:
-
-- [Python 2 or 3](https://python.org)
-- [Pip Package Manager](https://pypi.python.org/pypi)
+```bash
+yum install python34-pip
+pip3 install flask-mysqldb
+yum install gcc
+yum install python34-devel
+pip3 install flask-mysqldb
+pip3 install WTForms
+pip3 install passlib
+git clone https://github.com/edib/myflaskapp.git
+```
+### createing the database
+```sql
+create database myflaskapp
+use myflaskapp
+```
+run create table scripts in sql_scripts file.
 
 ### Running the app
 
 ```bash
-python app.py
+python3 app.py
 ```
 
